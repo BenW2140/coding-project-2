@@ -21,7 +21,7 @@ $(document).ready(function() {
           $("#anything").hide();
           $("#none").hide()
         } else {
-          $("#java").show();
+          $("#java").hide();
           $("#c++").hide();
           $("#python").show();
           $("#anything").hide();
