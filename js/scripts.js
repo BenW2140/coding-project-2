@@ -7,191 +7,462 @@ $(document).ready(function() {
     const question3 = $("input:radio[name=question3]:checked").val();
     const question4 = $("input:radio[name=question4]:checked").val();
     const question5 = $("input:radio[name=question5]:checked").val();
+    const question6 = $("input:radio[name=question6]:checked").val();
     $(".name").text(name);
     if (question3 === "constantly") {
       if (question4 === "yes") {
         if (question5 === "yes") {
-          $("#java").hide();
-          $("#c++").hide();
-          $("#python").hide();
-          $("#anything").show();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").show();
+            $("#none").hide()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").show();
+            $("#none").hide()
+          }
         } else if (question5 === "no") {
-          $("#java").hide();
-          $("#c++").hide();
-          $("#python").show();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").show();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").show();
+            $("#none").hide()
+          }
         } else {
-          $("#java").hide();
-          $("#c++").hide();
-          $("#python").show();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").show();
+            $("#none").hide()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").show();
+            $("#none").hide()
+          }
         }
       } else if (question4 === "no") {
         if (question5 === "yes") {
-          $("#java").hide();
-          $("#c++").show();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").show();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").show();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         } else if (question5 === "no") {
-          $("#java").show();
-          $("#c++").hide();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").show();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").show();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         } else {
-          $("#java").show();
-          $("#c++").hide();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").show();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").show();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         }
       } else {
         if (question5 === "yes") {
-          $("#java").hide();
-          $("#c++").show();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").show()
+          } else {
+            $("#java").hide();
+            $("#c++").show();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         } else if (question5 === "no") {
-          $("#java").show();
-          $("#c++").hide();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").show()
+          } else {
+            $("#java").show();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         } else {
-          $("#java").hide();
-          $("#c++").hide();
-          $("#python").hide();
-          $("#anything").show();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").show();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").show();
+            $("#none").hide()
+          }
         }
       }
     } else if (question3 === "sometimes") {
       if (question4 === "yes") {
         if (question5 === "yes") {
-          $("#java").hide();
-          $("#c++").hide();
-          $("#python").hide();
-          $("#anything").show();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").show();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").show();
+            $("#none").hide()
+          }
         } else if (question5 === "no") {
-          $("#java").hide();
-          $("#c++").hide();
-          $("#python").show();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").show();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").show();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         } else {
-          $("#java").hide();
-          $("#c++").hide();
-          $("#python").show();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").show();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").show();
+            $("#none").hide()
+          }
         }
       } else if (question4 === "no") {
         if (question5 === "yes") {
-          $("#java").hide();
-          $("#c++").show();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").show();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          } else {
+            $("#java").show();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         } else if (question5 === "no") {
-          $("#java").show();
-          $("#c++").hide();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").show()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").show();
+            $("#anything").show();
+            $("#none").hide()
+          }
         } else {
-          $("#java").hide();
-          $("#c++").show();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").show()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").show();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         }
       } else {
         if (question5 === "yes") {
-          $("#java").hide();
-          $("#c++").show();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").show();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").show();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         } else if (question5 === "no") {
-          $("#java").hide();
-          $("#c++").hide();
-          $("#python").show();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").show()
+          } else {
+            $("#java").show();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         } else {
-          $("#java").hide();
-          $("#c++").hide();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").show()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").show()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").show();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         }
       }
     } else {
       if (question4 === "yes") {
         if (question5 === "yes") {
-          $("#java").hide();
-          $("#c++").show();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").show();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").show();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         } else if (question5 === "no") {
-          $("#java").hide();
-          $("#c++").hide();
-          $("#python").show();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").show();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").show();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         } else {
-          $("#java").hide();
-          $("#c++").hide();
-          $("#python").show();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").show()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").show();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         }
       } else if (question4 === "no") {
         if (question5 === "yes") {
-          $("#java").hide();
-          $("#c++").show();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").show();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").show();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         } else if (question5 === "no") {
-          $("#java").hide();
-          $("#c++").hide();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").show()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").show()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").show();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         } else {
-          $("#java").hide();
-          $("#c++").show();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").show()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").show();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         }
       } else {
         if (question5 === "yes") {
-          $("#java").hide();
-          $("#c++").show();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").show();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          } else {
+            $("#java").hide();
+            $("#c++").show();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         } else if (question5 === "no") {
-          $("#java").hide();
-          $("#c++").hide();
-          $("#python").show();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").show()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").show();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         } else {
-          $("#java").hide();
-          $("#c++").show();
-          $("#python").hide();
-          $("#anything").hide();
-          $("#none").hide()
+          if (question6 === "insignificant") {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").hide();
+            $("#anything").hide();
+            $("#none").show()
+          } else {
+            $("#java").hide();
+            $("#c++").hide();
+            $("#python").hide();
+            $("#c#").show();
+            $("#anything").hide();
+            $("#none").hide()
+          }
         }
       }
     }
