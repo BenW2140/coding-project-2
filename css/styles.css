@@ -3,7 +3,7 @@
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 20px;
-  background-color: mediumturquoise;
+  background-color: goldenrod;
 }
 
 body {
@@ -24,7 +24,7 @@ h3 {
 div.radio {
   margin: 10px;
   padding: 10px;
-  background-color: mediumturquoise;
+  background-color: goldenrod;
 }
 
 label {
@@ -35,7 +35,7 @@ label {
 .btn {
   border: 2px solid black;
   margin: 10px;
-  background-color: mediumturquoise;
+  background-color: goldenrod;
   color: ivory;
 }
 
