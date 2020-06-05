@@ -2,9 +2,12 @@
   display: none;
   margin-top: 30px;
   margin-bottom: 30px;
+  padding: 20px;
+  background-color: mediumturquoise;
 }
 
 body {
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   background-color: black;
   color: ivory;
@@ -15,17 +18,17 @@ h1 {
 }
 
 h3 {
-
+  font-weight: bold;
 }
 
 div.radio {
   margin: 10px;
   padding: 10px;
-  border: 2px solid black;
   background-color: mediumturquoise;
 }
 
 label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
 }
 
@@ -34,4 +37,10 @@ label {
   margin: 10px;
   background-color: mediumturquoise;
   color: ivory;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
