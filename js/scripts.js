@@ -18,14 +18,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").show();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").hide();
             $("#anything").show();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else if (question5 === "no") {
           if (question6 === "insignificant") {
@@ -34,14 +34,14 @@ $(document).ready(function() {
             $("#python").show();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").hide();
             $("#anything").show();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else {
           if (question6 === "insignificant") {
@@ -50,14 +50,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").show();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").hide();
             $("#anything").show();
-            $("#none").hide()
+            $("#none").hide();
           }
         }
       } else if (question4 === "no") {
@@ -68,14 +68,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").show();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else if (question5 === "no") {
           if (question6 === "insignificant") {
@@ -84,14 +84,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").show();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else {
           if (question6 === "insignificant") {
@@ -100,14 +100,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").show();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         }
       } else {
@@ -118,14 +118,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").show()
+            $("#none").show();
           } else {
             $("#java").hide();
             $("#c++").show();
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else if (question5 === "no") {
           if (question6 === "insignificant") {
@@ -134,14 +134,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").show()
+            $("#none").show();
           } else {
             $("#java").show();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else {
           if (question6 === "insignificant") {
@@ -150,14 +150,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").hide();
             $("#anything").show();
-            $("#none").hide()
+            $("#none").hide();
           }
         }
       }
@@ -170,14 +170,14 @@ $(document).ready(function() {
             $("#python").show();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").hide();
             $("#anything").show();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else if (question5 === "no") {
           if (question6 === "insignificant") {
@@ -186,14 +186,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").show();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else {
           if (question6 === "insignificant") {
@@ -202,14 +202,14 @@ $(document).ready(function() {
             $("#python").show();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").hide();
             $("#anything").show();
-            $("#none").hide()
+            $("#none").hide();
           }
         }
       } else if (question4 === "no") {
@@ -220,14 +220,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").show();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else if (question5 === "no") {
           if (question6 === "insignificant") {
@@ -236,14 +236,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").show()
+            $("#none").show();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").show();
             $("#anything").show();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else {
           if (question6 === "insignificant") {
@@ -252,14 +252,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").show()
+            $("#none").show();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").show();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         }
       } else {
@@ -270,14 +270,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").show();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else if (question5 === "no") {
           if (question6 === "insignificant") {
@@ -286,14 +286,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").show()
+            $("#none").show();
           } else {
             $("#java").show();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else {
           if (question6 === "insignificant") {
@@ -302,14 +302,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").show()
+            $("#none").show();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").show();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         }
       }
@@ -322,14 +322,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").show();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else if (question5 === "no") {
           if (question6 === "insignificant") {
@@ -338,14 +338,14 @@ $(document).ready(function() {
             $("#python").show();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").show();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else {
           if (question6 === "insignificant") {
@@ -354,14 +354,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").show()
+            $("#none").show();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").show();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         }
       } else if (question4 === "no") {
@@ -372,14 +372,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").show();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else if (question5 === "no") {
           if (question6 === "insignificant") {
@@ -388,14 +388,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").show()
+            $("#none").show();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").show();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else {
           if (question6 === "insignificant") {
@@ -404,14 +404,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").show()
+            $("#none").show();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").show();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         }
       } else {
@@ -422,14 +422,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           } else {
             $("#java").hide();
             $("#c++").show();
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else if (question5 === "no") {
           if (question6 === "insignificant") {
@@ -438,14 +438,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").show()
+            $("#none").show();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").show();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         } else {
           if (question6 === "insignificant") {
@@ -454,14 +454,14 @@ $(document).ready(function() {
             $("#python").hide();
             $("#c#").hide();
             $("#anything").hide();
-            $("#none").show()
+            $("#none").show();
           } else {
             $("#java").hide();
             $("#c++").hide();
             $("#python").hide();
             $("#c#").show();
             $("#anything").hide();
-            $("#none").hide()
+            $("#none").hide();
           }
         }
       }
