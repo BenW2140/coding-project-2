@@ -11,71 +11,72 @@
   <div class="container">
     <h1>Which programming language is best for you?</h1>
     <form id="questionnaire">
-      <div class="form-group">
+      <div class="radio">
         <h3>How are you feeling today?</h3>
         <label>Excited</label>
-        <input type="radio" name="question1" value="excited">
+        <input type="radio" name="question1" value="excited" checked>
       </div>
-      <div class="form-group">
+      <div class="radio">
         <label>Tired</label>
         <input type="radio" name="question1" value="tired">
       </div>
-      <div class="form-group">
+      <div class="radio">
         <label>Calm</label>
         <input type="radio" name="question1" value="calm">
       </div>
-      <div class="form-group">
+      <div class="radio">
         <h3>Which of these places would you most rather go?</h3>
         <label>Italy</label>
-        <input type="radio" name="question2" value="italy">
+        <input type="radio" name="question2" value="italy" checked>
       </div>
-      <div class="form-group">
+      <div class="radio">
         <label>Russia</label>
         <input type="radio" name="question2" value="russia">
       </div>
-      <div class="form-group">
+      <div class="radio">
         <label>Japan</label>
         <input type="radio" name="question2" value="japan">
       </div>
-      <div class="form-group">
+      <div class="radio">
         <h3>How often do you use your phone?</h3>
         <label>Constantly</label>
-        <input type="radio" name="question3" value="constantly">
+        <input type="radio" name="question3" value="constantly" checked>
       </div>
-      <div class="form-group">
+      <div class="radio">
         <label>Sometimes</label>
         <input type="radio" name="question3" value="sometimes">
       </div>
-      <div class="form-group">
+      <div class="radio">
         <label>Never</label>
         <input type="radio" name="question3" value="never">
       </div>
-      <div class="form-group">
-        <h3>Would you hold a snake?</h3>
+      <div class="radio">
+        <h3>Would you hold a non-poisonous snake?</h3>
         <label>Yes, of course!</label>
-        <input type="radio" name="question4" value="yes">
+        <input type="radio" name="question4" value="yes" checked>
       </div>
-      <div class="form-group">
+      <div class="radio">
         <label>I would rather die!</label>
         <input type="radio" name="question4" value="no">
       </div>
-      <div class="form-group">
+      <div class="radio">
         <label>Maybe if I was offered money</label>
         <input type="radio" name="question4" value="maybe">
       </div>
-      <div class="form-group">
+      <div class="radio">
         <h3>What is your opinion on video games?</h3>
         <label>They're fun</label>
-        <input type="radio" name="question5" value="yes">
+        <input type="radio" name="question5" value="yes" checked>
       </div>
-      <div class="form-group">
+      <div class="radio">
         <label>Video games are childish</label>
         <input type="radio" name="question5" value="no">
       </div>
-      <div class="form-group">
+      <div class="radio">
         <label>Video games?</label>
         <input type="radio" name="question5" value="indifferent">
       </div>
+      <button type="button" class="btn">Submit!</button>
     </form>
     <div class="hidden" id="c++">
       <p>If you like games then you might want to consider learning C++, it's calling your name</p>
@@ -85,6 +86,12 @@
     </div>
     <div class="hidden" id="python">
       <p>You actually like snakes? Well then you would really like python, it was written with snake lovers in mind</p>
+    </div>
+    <div class="hidden" id="anything">
+      <p>You seem like you could pick any language and do well with it, so go wild</p>
+    </div>
+    <div class="hidden" id="none">
+      <p>You seem a bit uncertain on this topic, are you sure this is something you want to do?</p>
     </div>
   </div>
 </body>
