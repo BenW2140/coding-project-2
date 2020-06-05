@@ -32,7 +32,7 @@ Open using Git Pages:
 
 ## Known Bugs
 
-_C++ suggestion doesn't show up no matter what you do_
+_Some hidden divs don't show up when you hit the submit button_
 
 ## Support and contact details
 
