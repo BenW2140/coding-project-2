@@ -1,37 +1,53 @@
-# _{Application Name}_
+# _Programming Language Questionnaire_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A questionnaire for what programming language to learn, June 05, 2020_
 
-#### By _**{List of contributors}**_
+#### By _**Ben White**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This site is a questionnaire that determines what programming language would be best suited for you based on your answers to a few questions_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+Software Requirements:
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+1. Web Browser
+2. VSCode
+
+Open by downloading:
+
+1. Download this repository onto your computer
+2. Double click index.html to open it in your web browser
+
+Open via Bash/GitBash:
+
+1. Clone this repository onto your computer: https://github.com/BenW2140/coding-project-2
+2. Navigate into the coding-project-1 directory in Visual Studio Code or preferred text editor code .
+3. Open index.html in Chrome or preferred browser: open index.html
+
+Open using Git Pages:
+
+1. Follow this link: https://BenW2140.github.io/coding-project-2
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_C++ suggestion doesn't show up no matter what you do_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Contact me through my github at https://github.com/BenW2140_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+Made using:
+* Git
+* HTML
+* CSS
+* Javascript/JQuery
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT Liscense*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Ben White_**
